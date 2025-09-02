@@ -1,0 +1,208 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;  
+  padding: 1em;
+  position: sticky;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom:0;
+  background: white;
+}
+
+.heading {
+  height: inherit;
+  display: flex;
+  flex: 50%;
+  flex-direction: row;
+}
+.bio{
+  border: none;
+}
+.header-details {
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0;
+  padding-right: 1em;
+}
+
+p {
+  margin: 1vmin;
+  border-left: 1px solid black;
+  padding: 0.2vmin;
+  font-size: 3vmin;
+}
+
+#logo {
+  width: inherit;
+  height: inherit;
+  
+}
+ @media (max-width: 768px) {
+    #logo{
+      width: 4vmin;
+      height: 5vmin;
+    }
+    .ourMission{
+      display: grid;
+      grid-auto-flow: column;
+    }
+    .whyChooseUs{
+      margin: 0;
+      padding: 0;
+      grid-template-rows: 40% 60%;
+      font-size: 2.5vmin;
+      height: auto;
+      text-overflow: ellipsis;
+
+    }
+
+    footer{
+      margin: 0;
+      padding: 1em;
+    }
+    .footerDiv{
+      padding: 0;
+      margin: 0;
+      height: inherit;
+    }
+ }
+
+.body{
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 50%;
+}
+
+.bodyContent{
+  color: white;
+  border: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 3vmin;
+  text-align: center;
+  margin: 0%;
+}
+
+.bodyHeading{
+  color: white;
+  text-align: center;
+  font-size: 3.5vmin;
+}
+
+.bodyParagraph {
+  border: none;
+  width: inherit;
+}
+
+button{
+  margin: 2px;
+  border: 0.2em solid black;
+  padding: 0.5em;
+  font-size: 2.5vmin;
+  border-radius: 0.2em;
+  background: rgb(0, 0, 26);
+  color: aliceblue;
+  cursor: alias;
+}
+
+.ourMission{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  padding: 2em;
+  padding-right: 0;
+  
+}
+.ourMissionText{
+  padding: 1em;
+  padding-right: 0%;
+}
+
+.whyChooseUs{
+  padding: 2em;
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 40% 60%;
+}
+
+.whyChooseUsContainer{
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 0.2em;
+  height: 70vh;
+}
+
+footer{
+  width: 100vw;
+  background: rgb(1, 1, 44);
+  color: rgb(245, 235, 236);
+  height: auto;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 30%;
+  padding: 2em;
+
+}
+
+.navLink{
+  color: black;
+  text-decoration: none;
+}
+
+.navLink:hover{
+  text-decoration: underline;
+  cursor: alias;
+}
+
+.footerParagraph{
+  font-size: 2vmin;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerDiv{
+  height: inherit;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.footerfontdesign{
+  font-size: 2.6vmin;
+  color: rgb(143, 96, 9);
+  text-emphasis: open;
+  text-wrap: wrap;
+}
+
+input{
+  font-size: 2vmin;
+  color: white;
+  background: rgb(20, 20, 20);
+  border-radius: 0.5em;
+  margin: 0.1em;
+  padding: 0.1em;
+  width: inherit;
+}
+
+form{
+  height: inherit;
+}
+
+h4{
+  font-size: 3.5vmin;
+}
