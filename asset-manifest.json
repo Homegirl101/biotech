@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/biotech/static/css/main.68f30938.css",
-    "main.js": "/biotech/static/js/main.d395b6e5.js",
-    "static/js/453.a8c366d8.chunk.js": "/biotech/static/js/453.a8c366d8.chunk.js",
-    "static/media/genetic.jpg": "/biotech/static/media/genetic.a1e36f38a0add7d33140.jpg",
-    "static/media/Biotech logo_1.jpg": "/biotech/static/media/Biotech logo_1.1b240500f3621514d611.jpg",
-    "index.html": "/biotech/index.html",
-    "main.68f30938.css.map": "/biotech/static/css/main.68f30938.css.map",
-    "main.d395b6e5.js.map": "/biotech/static/js/main.d395b6e5.js.map",
-    "453.a8c366d8.chunk.js.map": "/biotech/static/js/453.a8c366d8.chunk.js.map"
+    "main.css": "/static/css/main.68f30938.css",
+    "main.js": "/static/js/main.b8438508.js",
+    "static/js/453.a8c366d8.chunk.js": "/static/js/453.a8c366d8.chunk.js",
+    "static/media/genetic.jpg": "/static/media/genetic.a1e36f38a0add7d33140.jpg",
+    "static/media/Biotech logo_1.jpg": "/static/media/Biotech logo_1.1b240500f3621514d611.jpg",
+    "index.html": "/index.html",
+    "main.68f30938.css.map": "/static/css/main.68f30938.css.map",
+    "main.b8438508.js.map": "/static/js/main.b8438508.js.map",
+    "453.a8c366d8.chunk.js.map": "/static/js/453.a8c366d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68f30938.css",
-    "static/js/main.d395b6e5.js"
+    "static/js/main.b8438508.js"
   ]
 }
