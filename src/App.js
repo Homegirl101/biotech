@@ -10,7 +10,7 @@ import FindUs from './findus';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/biotech'>
             <div className='header'>
 
               <div className='heading'>
